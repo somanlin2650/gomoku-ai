@@ -27,7 +27,7 @@ function setup() {
     all_img.push(loadImage('assets/board'+i+'.jpg'));
   }
   
-  input_r = createInput('8');
+  input_r = createInput('6');
   input_r.position(board_width, 40);
   input_r.size(40, input_r.heigh);
   
@@ -83,7 +83,7 @@ function setup() {
   button_change.style('background-color', col);
   button_change.mousePressed(change_sides);
   
-  button_back = createButton('Redo');
+  button_back = createButton('Uedo');
   button_back.size(80, 40);
   button_back.position(board_width*5/13-40, board_height+button_offset);
   button_back.style("font-size", btn_font_size);
